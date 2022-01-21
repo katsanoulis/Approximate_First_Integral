@@ -1,9 +1,5 @@
 # Approximate First Integral
 
-## License
-
-This software is made public for research use only. It may be modified and redistributed under the terms of the GNU General Public License.
-
 ## Algorithm
 
 These example scripts implement theoretical results developed by Katsanoulis et al. [1] for the construction of an approximate first integral for a given vector field.
@@ -14,6 +10,10 @@ These example scripts implement theoretical results developed by Katsanoulis et 
 Citation:
 
 Please cite [1], if you use the code in your work.
+
+## License
+
+This software is made public for research use only. It may be modified and redistributed under the terms of the GNU General Public License.
 
 Tested on Matlab R2019a. 
 
