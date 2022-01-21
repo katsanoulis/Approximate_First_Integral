@@ -1,8 +1,12 @@
-# Approximate First Integral
+# Approximate First Integral in the non-integrable ABC flow
 
-## Algorithm
+## Running instructions
 
-These example scripts implement theoretical results developed by Katsanoulis et al. [1] for the construction of an approximate first integral for a given three-dimensional vector field.
+For the ABC flow we provide two different sample scripts. The first one is for use on a typical workstation as it requires approximately 10GB of memory. It can be found under the "Low Memory Requirement" directory and possesses a number of necessary simplifications to reduce its memory footprint (use of single precision arithmetic as well as lower number of Fourier modes and grid points). Despite that, all the KAM surfaces of the non-integrable ABC flow are reconstructed with sufficient accuracy.
+
+The second script can be found under the "High Memory Requirement" directory and is to be used in clusters. Here we make no simplifications and the memory requirements are substantially higher (150GB).
+
+In both cases the file "main.m" computes the approximate first integral and the file "plotStructures.m" plots and outputs the extracted structures.
 
 ## References
 [1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. Approximate streamsurfaces for flow visualization. Submitted.
