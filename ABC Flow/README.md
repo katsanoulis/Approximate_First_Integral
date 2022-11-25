@@ -9,7 +9,7 @@ The second script can be found under the "High Memory Requirement" directory and
 In both cases the file "main.m" computes the approximate first integral and the file "plotStructures.m" plots and outputs the extracted structures.
 
 ## References
-[1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. Approximate streamsurfaces for flow visualization. Submitted.
+[1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. Approximate streamsurfaces for flow visualization. To appear in JFM.
 
 Citation:
 
