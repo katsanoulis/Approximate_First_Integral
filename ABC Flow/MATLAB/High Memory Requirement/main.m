@@ -1,6 +1,6 @@
 %% Reference:
 %[1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. 
-% Approximate streamsurfaces for flow visualization. Submitted.
+% Approximate streamsurfaces for flow visualization. To appear in JFM.
 
 %% Grid definition
 k = 100; l = 100; m = 100;
