@@ -8,9 +8,11 @@ Within MATLAB we offer two sample scripts. The first one is to be used on a typi
 
 The second script can be found under the "High Memory Requirement" directory and is to be used in clusters. Here we make no simplifications resulting in higher memory requirements (140GB) but also a more faithful surface reconstruction.
 
-In both cases the file "main.m" computes the approximate first integral and the file "plotStructures.m" plots and outputs the extracted structures.
+In both cases the file "main.m" computes the approximate first integral and the file "plotStructures.m" plots and outputs the extracted structures. The MATLAB scripts were tested on MATLAB R2019a.
 
-Within Python you may run the script "job.sh" to compute the approximate first integral and then run the script "jobPlot.sh" to plot the extracted structures. The Python scripts are only marginally optimized using the just-in-time compiler for Python Numba. This invariably results in both a larger execution time and larger memory requirement when compared to the MATLAB scripts. The current version requires approximately 60GB for the "job.sh" script.
+Within Python you may run the script "job.sh" to compute the approximate first integral and then run the script "jobPlot.sh" to plot the extracted structures. The Python scripts are only marginally optimized using the just-in-time compiler Numba. This invariably results in both a larger execution time and larger memory requirement when compared to the MATLAB scripts. The current version requires approximately 60GB for the "job.sh" script.
+
+The Python scripts were tested on Python 3.8.5. and use the libraries NumPy, scipy, Numba and PyVista.
 
 ## References
 [1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. Approximate streamsurfaces for flow visualization. To appear in JFM.
@@ -25,6 +27,6 @@ This software is made public for research use only. It may be modified and redis
 
 Maintained by Stergios Katsanoulis,
 
-katsanos at ethz dot ch
+skatsanoulis at gmail dot com
 
-January 24, 2022.
+December 20, 2022.
