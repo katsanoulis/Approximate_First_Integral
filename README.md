@@ -17,6 +17,6 @@ This software is made public for research use only. It may be modified and redis
 
 Maintained by Stergios Katsanoulis,
 
-katsanos at ethz dot ch
+skatsanoulis at gmail dot com
 
-January 24, 2022.
+December 20, 2022.
