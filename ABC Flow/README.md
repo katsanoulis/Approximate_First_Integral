@@ -19,8 +19,6 @@ Please cite [1], if you use the code in your work.
 
 This software is made public for research use only. It may be modified and redistributed under the terms of the GNU General Public License.
 
-Tested on Matlab R2019a. 
-
 Maintained by Stergios Katsanoulis,
 
 katsanos at ethz dot ch
