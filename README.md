@@ -5,7 +5,7 @@
 These example scripts implement theoretical results developed by Katsanoulis et al. [1] for the construction of an approximate first integral to a given three-dimensional vector field.
 
 ## References
-[1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. Approximate streamsurfaces for flow visualization. To appear in JFM.
+[1] S. Katsanoulis, F. Kogelbauer, S. Roshan, J. Ault & G. Haller. Approximate streamsurfaces for flow visualization. J. Fluid Mech. 954 (2023) A28
 
 Citation:
 
